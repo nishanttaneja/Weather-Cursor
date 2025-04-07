@@ -25,7 +25,7 @@ enum NetworkError: LocalizedError {
 }
 
 class NetworkService {
-    let apiKey = "871398ec921f8a0d4942d486dedc4d22" // Replace with your OpenWeather API key
+    let apiKey = "YOUR_API_KEY" // Replace with your OpenWeather API key
     private let baseURL = "https://api.openweathermap.org/data/2.5"
     private let geocodingURL = "https://api.openweathermap.org/geo/1.0"
     
